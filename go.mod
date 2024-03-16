@@ -1,4 +1,4 @@
-module github.com/murasame29/cloudflare-go
+module github.com/ehatacotton/cloudflare-go
 
 go 1.21.4
 
@@ -7,6 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.26.2
 	github.com/aws/aws-sdk-go-v2/credentials v1.16.13
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.47.7
+	github.com/murasame29/cloudflare-go v0.0.0-20231224001922-47d720ff4f13
 )
 
 require (

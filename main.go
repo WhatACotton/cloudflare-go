@@ -35,7 +35,7 @@ func init() {
 }
 
 // 画像ファイルをバイト列に変換
-func filToByte(file *os.File) ([]byte, error) {
+func fileToByte(file *os.File) ([]byte, error) {
 	fileInfo, err := file.Stat()
 	if err != nil {
 		return nil, fmt.Errorf("file stat error :%v\n", err)
@@ -68,7 +68,7 @@ func main() {
 		log.Fatalf("file open error :%v\n", err)
 	}
 
-	filedata, err := filToByte(file)
+	filedata, err := fileToByte(file)
 	if err != nil {
 		log.Fatalf("file transcate error :%v\n", err)
 	}
