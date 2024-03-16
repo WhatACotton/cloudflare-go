@@ -1,4 +1,4 @@
-module github.com/ehatacotton/cloudflare-go
+module github.com/whatacotton/cloudflare-go
 
 go 1.21.4
 
