@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/murasame29/cloudflare-go/client"
-	"github.com/murasame29/cloudflare-go/r2"
+	"github.com/whatacotton/cloudflare-go/client"
+	"github.com/whatacotton/cloudflare-go/r2"
 )
 
 const (
